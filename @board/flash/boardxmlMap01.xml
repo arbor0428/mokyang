@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<map text="대한민국" e_text="Korea" >
+
+   <서울 text="서울특별시" e_text="Seoul" target="_self" link="javascript:boardsearch('서울')" color="77C802" >
+      <상세 text="강남구" target="_self" link="" />
+      <상세 text="강동구" target="_self" link="" />
+      <상세 text="강북구" target="_self" link="" />
+      <상세 text="강서구" target="_self" link="" />
+      <상세 text="관악구" target="_self" link="" />
+      <상세 text="광진구" target="_self" link="" />
+      <상세 text="구로구" target="_self" link="" />
+      <상세 text="금천구" target="_self" link="" />
+      <상세 text="노원구" target="_self" link="" />
+      <상세 text="도봉구" target="_self" link="" />
+      <상세 text="동대문구" target="_self" link="" />
+      <상세 text="동작구" target="_self" link="" />
+      <상세 text="마포구" target="_self" link="" />
+      <상세 text="서대문구" target="_self" link="" />
+      <상세 text="서초구" target="_self" link="" />
+      <상세 text="성동구" target="_self" link="" />
+      <상세 text="성북구" target="_self" link="" />
+      <상세 text="송파구" target="_self" link="" />
+      <상세 text="양천구" target="_self" link="" />
+      <상세 text="영등포구" target="_self" link="" />
+      <상세 text="용산구" target="_self" link="" />
+      <상세 text="은평구" target="_self" link="" />
+      <상세 text="종로구" target="_self" link="" />
+      <상세 text="중구" target="_self" link="" />
+      <상세 text="중랑구" target="_self" link="" />
+   </서울>
+
+   <인천 text="인천광역시" e_text="Incheon" target="_self" link="javascript:boardsearch('인천');" color="02CCB3" >
+      <상세 text="강화군" target="_self" />
+      <상세 text="계양구" target="_self" />
+      <상세 text="남구" target="_self" link="" />
+      <상세 text="남동구" target="_self" link="" />
+      <상세 text="동구" target="_self" link="" />
+      <상세 text="부평구" target="_self" link="" />
+      <상세 text="서구" target="_self" link="" />
+      <상세 text="연수구" target="_self" link="" />
+      <상세 text="옹진군" target="_self" link="" />
+      <상세 text="중구" target="_self" link="" />
+   </인천>
+
+   <경기도 text="경기도" e_text="Gyeonggido" target="_self" link="javascript:boardsearch('경기');" color="ff6600" >
+      <상세 text="가평군" target="_self" link="" />
+      <상세 text="고양시" target="_self" link="" />
+      <상세 text="과천시" target="_self" link="" />
+      <상세 text="광명시" target="_self" link="" />
+      <상세 text="광주시" target="_self" link="" />
+      <상세 text="구리시" target="_self" link="" />
+      <상세 text="군포시" target="_self" link="" />
+      <상세 text="김포시" target="_self" link="" />
+      <상세 text="남양주시" target="_self" link="" />
+      <상세 text="동두천시" target="_self" link="" />
+      <상세 text="부천시" target="_self" link="" />
+      <상세 text="성남시" target="_self" link="" />
+      <상세 text="수원시" target="_self" link="" />
+      <상세 text="시흥시" target="_self" link="" />
+      <상세 text="안산시" target="_self" link="" />
+      <상세 text="안성시" target="_self" link="" />
+      <상세 text="안양시" target="_self" link="" />
+      <상세 text="양주시" target="_self" link="" />
+      <상세 text="양평군" target="_self" link="" />
+      <상세 text="여주군" target="_self" link="" />
+      <상세 text="연천군" target="_self" link="" />
+      <상세 text="오산시" target="_self" link="" />
+      <상세 text="용인시" target="_self" link="" />
+      <상세 text="의왕시" target="_self" link="" />
+      <상세 text="의정부시" target="_self" link="" />
+      <상세 text="이천시" target="_self" link="" />
+      <상세 text="파주시" target="_self" link="" />
+      <상세 text="평택시" target="_self" link="" />
+      <상세 text="포천시" target="_self" link="" />
+      <상세 text="하남시" target="_self" link="" />
+      <상세 text="화성시" target="_self" link="" />
+   </경기도>
+
+   <강원도 text="강원도" e_text="Gangwondo" target="_self" link="javascript:boardsearch('강원');" color="ff6600" >
+      <상세 text="철원군" target="_self" link="" />
+      <상세 text="화천군" target="_self" link="" />
+      <상세 text="양구군" target="_self" link="" />
+      <상세 text="고성군" target="_self" link="" />
+      <상세 text="속초시" target="_self" link="" />
+      <상세 text="춘천시" target="_self" link="" />
+      <상세 text="인제군" target="_self" link="" />
+      <상세 text="양양군" target="_self" link="" />
+      <상세 text="홍천군" target="_self" link="" />
+      <상세 text="횡성군" target="_self" link="" />
+      <상세 text="평창군" target="_self" link="" />
+      <상세 text="강릉시" target="_self" link="" />
+      <상세 text="원주시" target="_self" link="" />
+      <상세 text="영월군" target="_self" link="" />
+      <상세 text="정선군" target="_self" link="" />
+      <상세 text="동해시" target="_self" link="" />
+      <상세 text="삼척시" target="_self" link="" />
+      <상세 text="태백시" target="_self" link="" />
+   </강원도>
+
+   <충북 text="충청북도" e_text="Chungcheongbukdo" target="_self" link="javascript:boardsearch('충북');" color="0287E4" >
+      <상세 text="괴산군" target="_self" link="" />
+      <상세 text="단양군" target="_self" link="" />
+      <상세 text="보은군" target="_self" link="" />
+      <상세 text="영동군" target="_self" link="" />
+      <상세 text="옥천군" target="_self" link="" />
+      <상세 text="음성군" target="_self" link="" />
+      <상세 text="제천시" target="_self" link="" />
+      <상세 text="증평군" target="_self" link="" />
+      <상세 text="진천군" target="_self" link="" />
+      <상세 text="청원군" target="_self" link="" />
+      <상세 text="청주시" target="_self" link="" />
+      <상세 text="충주시" target="_self" link="" />
+   </충북>
+
+   <충남 text="충청남도" e_text="Chungcheongnamdo" target="_self" link="javascript:boardsearch('충남');" color="CB4FFF" >
+      <상세 text="계룡시" target="_self" link="" />
+      <상세 text="공주시" target="_self" link="" />
+      <상세 text="금산군" target="_self" link="" />
+      <상세 text="논산시" target="_self" link="" />
+      <상세 text="당진군" target="_self" link="" />
+      <상세 text="보령시" target="_self" link="" />
+      <상세 text="부여군" target="_self" link="" />
+      <상세 text="서산시" target="_self" link="" />
+      <상세 text="서천군" target="_self" link="" />
+      <상세 text="아산시" target="_self" link="" />
+      <상세 text="연기군" target="_self" link="" />
+      <상세 text="예산군" target="_self" link="" />
+      <상세 text="천안시" target="_self" link="" />
+      <상세 text="청양군" target="_self" link="" />
+      <상세 text="태안군" target="_self" link="" />
+      <상세 text="홍성군" target="_self" link="" />
+   </충남>
+
+   <대전 text="대전광역시" e_text="Daejeon" target="_self" link="javascript:boardsearch('대전');" color="ff6600" >
+      <상세 text="대덕구" target="_self" link="" />
+      <상세 text="동구" target="_self" link="" />
+      <상세 text="서구" target="_self" link="" />
+      <상세 text="유성구" target="_self" link="" />
+      <상세 text="중구" target="_self" link="" />
+   </대전>
+
+   <경북 text="경상북도" e_text="Gyeongsangbukdo" target="_self" link="javascript:boardsearch('경북');" color="02CCB3" >
+      <상세 text="경산시" target="_self" link="" />
+      <상세 text="경주시" target="_self" link="" />
+      <상세 text="고령군" target="_self" link="" />
+      <상세 text="구미시" target="_self" link="" />
+      <상세 text="군위군" target="_self" link="" />
+      <상세 text="김천시" target="_self" link="" />
+      <상세 text="문경시" target="_self" link="" />
+      <상세 text="봉화군" target="_self" link="" />
+      <상세 text="상주시" target="_self" link="" />
+      <상세 text="성주군" target="_self" link="" />
+      <상세 text="안동시" target="_self" link="" />
+      <상세 text="영덕군" target="_self" link="" />
+      <상세 text="영양군" target="_self" link="" />
+      <상세 text="영주시" target="_self" link="" />
+      <상세 text="영천시" target="_self" link="" />
+      <상세 text="예천군" target="_self" link="" />
+      <상세 text="울릉군" target="_self" link="" />
+      <상세 text="울진군" target="_self" link="" />
+      <상세 text="의성군" target="_self" link="" />
+      <상세 text="청도군" target="_self" link="" />
+      <상세 text="청송군" target="_self" link="" />
+      <상세 text="칠곡군" target="_self" link="" />
+      <상세 text="포항시" target="_self" link="" />
+   </경북>
+
+   <경남 text="경상남도" e_text="Gyeongsangnamdo" target="_self" link="javascript:boardsearch('경남');" color="77C802" >
+      <상세 text="거제시" target="_self" link="" />
+      <상세 text="거창군" target="_self" link="" />
+      <상세 text="고성군" target="_self" link="" />
+      <상세 text="김해시" target="_self" link="" />
+      <상세 text="남해군" target="_self" link="" />
+      <상세 text="밀양시" target="_self" link="" />
+      <상세 text="사천시" target="_self" link="" />
+      <상세 text="산청군" target="_self" link="" />
+      <상세 text="양산시" target="_self" link="" />
+      <상세 text="의령군" target="_self" link="" />
+      <상세 text="진주시" target="_self" link="" />
+      <상세 text="창녕군" target="_self" link="" />
+      <상세 text="창원시" target="_self" link="" />
+      <상세 text="통영시" target="_self" link="" />
+      <상세 text="하동구" target="_self" link="" />
+      <상세 text="함안군" target="_self" link="" />
+      <상세 text="함양군" target="_self" link="" />
+      <상세 text="합천군" target="_self" link="" />
+   </경남>
+
+   <대구 text="대구광역시" e_text="Daegu" target="_self" link="javascript:boardsearch('대구');" color="ff6600" >
+      <상세 text="남구" target="_self" link="" />
+      <상세 text="달서구" target="_self" link="" />
+      <상세 text="달성군" target="_self" link="" />
+      <상세 text="동구" target="_self" link="" />
+      <상세 text="북구" target="_self" link="" />
+      <상세 text="서구" target="_self" link="" />
+      <상세 text="수성구" target="_self" link="" />
+      <상세 text="중구" target="_self" link="" />
+   </대구>
+
+   <울산 text="울산광역시" e_text="Ulsan" target="_self" link="javascript:boardsearch('울산');" color="ff6600" >
+      <상세 text="남구" target="_self" link="" />
+      <상세 text="동구" target="_self" link="" />
+      <상세 text="북구" target="_self" link="" />
+      <상세 text="울주군" target="_self" link="" />
+      <상세 text="중구" target="_self" link="" />
+   </울산>
+
+   <부산 text="부산광역시" e_text="Busan" target="_self" link="javascript:boardsearch('부산');" color="CB4FFF" >
+      <상세 text="강서구" target="_self" link="" />
+      <상세 text="금정구" target="_self" link="" />
+      <상세 text="기장군" target="_self" link="" />
+      <상세 text="남구" target="_self" link="" />
+      <상세 text="동구" target="_self" link="" />
+      <상세 text="동래구" target="_self" link="" />
+      <상세 text="부산진구" target="_self" link="" />
+      <상세 text="북구" target="_self" link="" />
+      <상세 text="사상구" target="_self" link="" />
+      <상세 text="사하구" target="_self" link="" />
+      <상세 text="서구" target="_self" link="" />
+      <상세 text="수영구" target="_self" link="" />
+      <상세 text="연제구" target="_self" link="" />
+      <상세 text="영도구" target="_self" link="" />
+      <상세 text="중구" target="_self" link="" />
+      <상세 text="해운대구" target="_self" link="" />
+   </부산>
+
+   <전북 text="전라북도" e_text="Jeollabukdo" target="_self" link="javascript:boardsearch('전북');" color="ff6600" >
+      <상세 text="고창군" target="_self" link="" />
+      <상세 text="군산시" target="_self" link="" />
+      <상세 text="김제시" target="_self" link="" />
+      <상세 text="남원시" target="_self" link="" />
+      <상세 text="무주군" target="_self" link="" />
+      <상세 text="부안군" target="_self" link="" />
+      <상세 text="순창군" target="_self" link="" />
+      <상세 text="완주군" target="_self" link="" />
+      <상세 text="익산시" target="_self" link="" />
+      <상세 text="임실군" target="_self" link="" />
+      <상세 text="장수군" target="_self" link="" />
+      <상세 text="전주시" target="_self" link="" />
+      <상세 text="정읍시" target="_self" link="" />
+      <상세 text="진안군" target="_self" link="" />
+   </전북>
+
+   <전남 text="전라남도" e_text="Jeollanamdo" target="_self" link="javascript:boardsearch('전남');" color="02CCB3" >
+      <상세 text="강진군" target="_self" link="" />
+      <상세 text="고흥군" target="_self" link="" />
+      <상세 text="곡성군" target="_self" link="" />
+      <상세 text="광양시" target="_self" link="" />
+      <상세 text="구례군" target="_self" link="" />
+      <상세 text="나주시" target="_self" link="" />
+      <상세 text="담양군" target="_self" link="" />
+      <상세 text="목포시" target="_self" link="" />
+      <상세 text="무안군" target="_self" link="" />
+      <상세 text="보성군" target="_self" link="" />
+      <상세 text="순천시" target="_self" link="" />
+      <상세 text="신안군" target="_self" link="" />
+      <상세 text="여수시" target="_self" link="" />
+      <상세 text="영광군" target="_self" link="" />
+      <상세 text="영암군" target="_self" link="" />
+      <상세 text="완도군" target="_self" link="" />
+      <상세 text="장성군" target="_self" link="" />
+      <상세 text="장흥군" target="_self" link="" />
+      <상세 text="진도군" target="_self" link="" />
+      <상세 text="함평군" target="_self" link="" />
+      <상세 text="해남군" target="_self" link="" />
+      <상세 text="화순군" target="_self" link="" />
+   </전남>
+
+   <광주 text="광주광역시" e_text="Gwangju" target="_self" link="javascript:boardsearch('광주');" color="ff6600" >
+      <상세 text="광산구" target="_self" link="" />
+      <상세 text="남구" target="_self" link="" />
+      <상세 text="동구" target="_self" link="" />
+      <상세 text="북구" target="_self" link="" />
+      <상세 text="서구" target="_self" link="" />
+   </광주>
+
+   <제주 text="제주도" e_text="Jejudo" target="_self" link="javascript:boardsearch('제주');" color="018EE2" >
+      <상세 text="제주시" target="_self" link="" />
+      <상세 text="서귀포시" target="_self" link="" />
+   </제주>
+
+</map>

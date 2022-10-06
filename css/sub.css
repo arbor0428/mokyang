@@ -1,0 +1,96 @@
+/**** 서브 ****/
+
+/*개인정보이용약관*/
+.member-area{padding-top:50px;}
+.member-area h5{margin-bottom:20px; font-size:1rem; color:#222; transform:skew(-0.03deg);}
+.member-area h6{margin-bottom:20px; font-weight:700; font-size:1.125rem; line-height:1.5; color:#222;}
+.member-area h2{padding:30px 0; font-weight:700; font-size:40px; color:#222; text-align:center;}
+.member-area p{line-height:1.6; font-size:0.875rem;}
+.member-area ul li, .member-area p{line-height:1.6; /*font-weight:300;*/ font-size:0.938rem; color:#666;}
+.member-area ul li ul{margin-bottom:10px; padding-left:15px;}
+.member-area ul li{margin-bottom:8px;}
+.member-area ul li:last-child{margin:0;}
+.member-area ul li ul li{margin-bottom:2px; font-size:15px;}
+.member-area ul li ul{margin-top:5px; margin-bottom:20px;}
+.member-area .inr{padding:40px 0; border-bottom:1px solid #ddd;}
+.member-area .inr:last-child{border:none;}
+
+/*이메일무단수집거부*/
+.pt-box {padding:6px; background:url(/images/sub/pattern.png);}
+.pt-box div.inner {display:flex; align-items:center; background:#fff; padding:20px;}
+.pt-box div.inner > .icon {width:20%; text-align:center;}
+.pt-box div.inner > .txt {padding:30px; box-sizing:border-box; line-height:1.5;}
+.txt-list li.f16 {position:relative; padding-left:12px;}
+.txt-list li.f16:before {content:""; display:block; position:absolute; width:4px; height:4px; background:#ebb158; top:8px; left:0;}
+
+a.linked:hover {text-decoration:underline;}
+
+
+/*플랫폼소개*/
+.greeting-img {width:100%; height:480px; background:url(/images/sub/greeting_top.jpg)no-repeat center center;}
+.greeting-txt {position: relative; width: 80%; margin: -80px auto 0; background-color: #fff; color: #222; padding: 5%; box-sizing: border-box; line-height:1.8; font-size:1.125rem; word-break:keep-all; text-align:center; transform:skew(-0.03deg);}
+.greeting-txt p.tit {font-size:2.375rem;}
+.greeting-txt p.tit small {display:block; font-size:1.250rem; line-height:1.5; margin-bottom:40px; }
+
+
+
+/*컨소시엄기관들*/
+.center.sub h4 {position:relative; font-size:1.75rem; color:#222; padding:0 0 18px 40px; border-bottom:1px solid #d1d1d1;}
+.center.sub h4:before {content:""; display:block; position:absolute; left:0; width:29px; height:29px; background:url(/images/sub/bullet.png)no-repeat center center; background-size:cover;}
+.tbl-wrap {margin:50px 0;}
+table.aTbl {width:100%;}
+table.aTbl th, table.aTbl td {border-right:1px solid #e1e1e1; box-sizing:border-box; color:#222;}
+table.aTbl th p {transform:skew(-0.03deg);}
+table.aTbl th {padding:18px; background:#7aaf88; color:#fff;}
+table.aTbl td {padding:14px 18px; border-bottom:1px solid #e1e1e1;}
+
+.img-box {margin:50px 0; display:flex; flex-wrap:wrap;}
+.img-box div.thumb {width:25%; padding:10px; box-sizing:border-box;}
+.img-box div.thumb .inner {overflow:hidden;}
+.img-box div.thumb img {transition:all .15s ease-in-out;}
+.img-box div.thumb img:hover {transform:scale(1.1); cursor:pointer;}
+
+
+
+/* sub visual */
+.area-subtop{position:relative; background-color:#f6f6f1;}
+.area-subtop::after{content:''; position:absolute; bottom:0; right:0; background-color:#fff; height:74px; width:50%;}
+.area-subtop .inr{height:352px;}
+.area-subtop .inr,
+.area-subtop .inner{position:relative; width:1260px; margin:0 auto;}
+.area-subtop .inr::after{content:''; position:absolute; /*bottom:-28px;*/ bottom:-6px; right:0; width:800px; height:280px; background:url(/images/sub/subtop_img.png) no-repeat 50%; background-size:contain; z-index:20; -webkit-transition:0.6s; -o-transition:0.6s; transition:0.6s;}
+
+
+
+
+.area-subtop .title{position:absolute; left:0; top:41%; color:#222; z-index:30;}
+.area-subtop .title h2{font-size:3rem; margin-bottom:10px;}
+.area-subtop .title p{font-size:1.5rem; text-indent:8px;}
+
+.area-subtop .location{position:absolute; right:0; top:36px; color:#b1b1ae; z-index:21;}
+.area-subtop .location li{float:left; position:relative; margin-left:33px; transform:skew(-0.03deg);}
+.area-subtop .location li:first-child{margin-top:1px;}
+.area-subtop .location li:first-child::after{display:none;}
+.area-subtop .location li::after{content:''; position:absolute; top:50%; left:-18px; display:block; width:4px; height:4px; background-color:#cbcbcb; border-radius:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%);}
+.area-subtop .location li:last-child{color:#111;}
+
+
+
+.area-subtop .inner{height:74px;}
+.area-subtop .lnb{display:-webkit-box;display:-ms-flexbox;display:flex; position:absolute; bottom:0; width:100%; background-color:#fff; border-radius:22px 0 0 0; z-index:10;}
+.area-subtop .lnb.mobile{display:none;}
+.area-subtop .lnb .home{width:74px; height:74px; background-color:#7aaf88; border-radius:22px 0 0 0;}
+.area-subtop .lnb .home a{display:-webkit-box;display:-ms-flexbox;display:flex; -webkit-box-pack:center; -ms-flex-pack:center; justify-content:center; -webkit-box-align:center; -ms-flex-align:center; align-items:center; width:100%; height:100%;}
+.area-subtop .lnb > ul li{float:left;}
+.area-subtop .lnb > ul li a{padding:0 30px; height:100%; line-height:74px;}
+.area-subtop .lnb ul li a{display:block; font-weight:500; color:#888; font-size:1.125rem; transform:skew(-0.03deg);}
+.area-subtop .lnb ul li a.on{color:#7aaf88; font-weight:600;}
+
+
+/*복지지원서비스*/
+.tab-link {width:100%; display:flex; justify-content:center; margin-bottom:50px;}
+.tab-link li {border:1px solid #e1e1e1; min-width:200px; padding:20px; text-align:center; box-sizing:border-box;}
+.tab-link li.active {background:#7aaf88; border:1px solid #7aaf88; color:#fff;}
+.tab-link li a {display:inline-block; width:100%;}
+
+.map-bt {display:inline-block; padding:15px 48px; border-radius:50px; background:linear-gradient(to right, #69c1ad, #f1b156); color:#fff; }

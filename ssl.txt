@@ -1,0 +1,161 @@
+Listen 443 https
+
+SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog
+
+SSLSessionCache         shmcb:/run/httpd/sslcache(512000)
+SSLSessionCacheTimeout  300
+
+SSLRandomSeed startup file:/dev/urandom  256
+SSLRandomSeed connect builtin
+
+SSLCryptoDevice builtin
+
+<Directory "/home">
+    AllowOverride None
+    Require all granted
+</Directory>
+
+
+<VirtualHost _default_:443>
+
+DocumentRoot "/home/porsche/www"
+ServerName sellmyporsche.co.kr
+ServerAlias www.sellmyporsche.co.kr
+
+ErrorLog logs/ssl_error_log
+TransferLog logs/ssl_access_log
+LogLevel warn
+
+
+SSLEngine on
+SSLProtocol all -SSLv2 -SSLv3
+
+SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+
+SSLCertificateFile /etc/httpd/conf/ssl/porsche/cert_www.sellmyporsche.co.kr.crt
+SSLCertificateKeyFile /etc/httpd/conf/ssl/porsche/prv_www.sellmyporsche.co.kr.key
+SSLCertificateChainFile /etc/httpd/conf/ssl/porsche/subca1_www.sellmyporsche.co.kr.crt
+SSLCACertificateFile /etc/httpd/conf/ssl/porsche/rootca_www.sellmyporsche.co.kr.crt
+
+<Files ~ "\.(cgi|shtml|phtml|php3?)$">
+    SSLOptions +StdEnvVars
+</Files>
+<Directory "/var/www/cgi-bin">
+    SSLOptions +StdEnvVars
+</Directory>
+BrowserMatch "MSIE [2-5]" \
+         nokeepalive ssl-unclean-shutdown \
+         downgrade-1.0 force-response-1.0
+
+CustomLog logs/ssl_request_log \
+          "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
+
+</VirtualHost>
+
+<VirtualHost _default_:443>
+
+DocumentRoot "/home/pocheon/www"
+ServerName pcfac.or.kr
+ServerAlias www.pcfac.or.kr
+
+ErrorLog logs/ssl_error_log
+TransferLog logs/ssl_access_log
+LogLevel warn
+
+
+SSLEngine on
+SSLProtocol all -SSLv2 -SSLv3
+
+SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+
+SSLCertificateFile /etc/httpd/conf/ssl/pcfac_or_kr/SSLCertificate_www.pcfac.or.kr.crt
+SSLCertificateKeyFile /etc/httpd/conf/ssl/pcfac_or_kr/SSLCertificateKeyFile_www.pcfac.or.kr.key
+SSLCertificateChainFile /etc/httpd/conf/ssl/pcfac_or_kr/SSLChainCertificate1_www.pcfac.or.kr.crt
+SSLCACertificateFile /etc/httpd/conf/ssl/pcfac_or_kr/SSLCACertificate_www.pcfac.or.kr.crt
+
+<Files ~ "\.(cgi|shtml|phtml|php3?)$">
+    SSLOptions +StdEnvVars
+</Files>
+<Directory "/var/www/cgi-bin">
+    SSLOptions +StdEnvVars
+</Directory>
+BrowserMatch "MSIE [2-5]" \
+         nokeepalive ssl-unclean-shutdown \
+         downgrade-1.0 force-response-1.0
+
+CustomLog logs/ssl_request_log \
+          "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
+
+</VirtualHost>
+
+<VirtualHost _default_:443>
+
+DocumentRoot "/home/livedental/www"
+ServerName relivedent.com
+ServerAlias www.relivedent.com
+
+ErrorLog logs/ssl_error_log
+TransferLog logs/ssl_access_log
+LogLevel warn
+
+
+SSLEngine on
+SSLProtocol all -SSLv2 -SSLv3
+
+SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+
+SSLCertificateFile /etc/httpd/conf/ssl/relivedent_com/SSLCertificate_www.relivedent.com.crt
+SSLCertificateKeyFile /etc/httpd/conf/ssl/relivedent_com/SSLCertificateKeyFile_www.relivedent.com.key
+SSLCertificateChainFile /etc/httpd/conf/ssl/relivedent_com/SSLChainCertificate1_www.relivedent.com.crt
+SSLCACertificateFile /etc/httpd/conf/ssl/relivedent_com/SSLCACertificate_www.relivedent.com.crt
+
+<Files ~ "\.(cgi|shtml|phtml|php3?)$">
+    SSLOptions +StdEnvVars
+</Files>
+<Directory "/var/www/cgi-bin">
+    SSLOptions +StdEnvVars
+</Directory>
+BrowserMatch "MSIE [2-5]" \
+         nokeepalive ssl-unclean-shutdown \
+         downgrade-1.0 force-response-1.0
+
+CustomLog logs/ssl_request_log \
+          "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
+
+</VirtualHost>
+
+<VirtualHost _default_:443>
+
+DocumentRoot "/home/mokyang/www"
+ServerName togethertoo.co.kr
+ServerAlias www.togethertoo.co.kr
+
+ErrorLog logs/ssl_error_log
+TransferLog logs/ssl_access_log
+LogLevel warn
+
+
+SSLEngine on
+SSLProtocol all -SSLv2 -SSLv3
+
+SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+
+SSLCertificateFile /etc/httpd/conf/ssl/togethertoo_co_kr/SSLCertificate_www.togethertoo.co.kr.crt
+SSLCertificateKeyFile /etc/httpd/conf/ssl/togethertoo_co_kr/SSLCertificateKeyFile_www.togethertoo.co.kr.key
+SSLCertificateChainFile /etc/httpd/conf/ssl/togethertoo_co_kr/SSLChainCertificate1_www.togethertoo.co.kr.crt
+SSLCACertificateFile /etc/httpd/conf/ssl/togethertoo_co_kr/SSLCACertificate_www.togethertoo.co.kr.crt
+
+<Files ~ "\.(cgi|shtml|phtml|php3?)$">
+    SSLOptions +StdEnvVars
+</Files>
+<Directory "/var/www/cgi-bin">
+    SSLOptions +StdEnvVars
+</Directory>
+BrowserMatch "MSIE [2-5]" \
+         nokeepalive ssl-unclean-shutdown \
+         downgrade-1.0 force-response-1.0
+
+CustomLog logs/ssl_request_log \
+          "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
+
+</VirtualHost>
